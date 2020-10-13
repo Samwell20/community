@@ -1,0 +1,38 @@
+     matlab       pwd:Mp13062180
+     TeamViewer    bupt123456
+     centos7    123456    buptbupt  123456    
+     source insight
+     xmind
+     office
+     mysql tomcat maven nacos redis docker 
+     本地的mysql和虚拟机的mysql pwd:root
+
+一些开源项目的名称：若依  molihub halo
+
+位子上的东西：键盘，鼠标，桌面上的东西，最下面的柜子里的东西，重装电脑
+
+github gitee    pwd:git941024hub/ee
+
+docker run -p 3306:3306 --name mysql -v /mydata/mysql/log:/var/log/mysql -v /mydata/mysql/data:/var/lib/mysql -v /mydata/mysql/conf:/etc/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
+docker run -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
+docker run -p 6379:6379 --name redis -v /mydata/redis/data:/data -v /mydata/redis/conf/redis.conf:/etc/redis/redis.conf -d redis redis-server /etc/redis/redis.conf
+
+
+JVM：该P214
+
+谷粒商城：
+P12：maven的setting文件未更改
+P14:maven里coupon不知为何成了root，没执行往gitee版本控制的部分
+P15：虚拟机里的MySQL有问题，暂时没弄好，计划先用本地win里面的mysql
+p17：xss里面的httpfilter.java在报错,所以先删除了
+p18：mysql server的版本不一样，该看第七分四十秒，重新弄gulimall-common
+
+
+码问论坛（起始于10月4日）：
+P12最后得到name那依旧得不到，只能得到null
+P14最后那里没能显示出来名字，但在手动改了user的名字后能显示出名字了，并且手动改了id以供之后的数据库操作使用
+P16 H2的用户名是sa，密码是123
+该看P19
+
+
+
